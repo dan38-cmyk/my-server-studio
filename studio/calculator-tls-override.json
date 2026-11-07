@@ -1,0 +1,10 @@
+{
+  "services": {
+    "calculator": {
+      "labels": {
+        "traefik.http.routers.is373-studio-calculator.tls": "true",
+        "traefik.http.routers.is373-studio-calculator.tls.certresolver": "letsencrypt"
+      }
+    }
+  }
+}
